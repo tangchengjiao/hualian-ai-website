@@ -52,6 +52,15 @@ pnpm dlx wrangler@4.152.0 pages deploy dist --project-name hualian-ai --branch m
 
 品牌及企业资料保留相应权利，具体产品与第三方组件权利归各自所有者。
 
+<!-- JIANZHOU-CONTACT-QR:START -->
+## 联系二维码
+
+| 微信 | 抖音 | 视频号 | 公众号 |
+| :---: | :---: | :---: | :---: |
+| <img src="https://hualian-ai.pages.dev/assets/contact/wechat-qr.png" alt="见舟微信二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/douyin-qr.png" alt="见舟抖音二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/channels-qr.png" alt="见舟AI赋能视频号二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/official-account-qr.jpg" alt="公众号二维码" width="160"> |
+| `DST10209` | `74683161410` | 见舟AI赋能 | 扫码关注 |
+<!-- JIANZHOU-CONTACT-QR:END -->
+
 <!-- JIANZHOU-PUBLIC-INFO:START -->
 ## 企业服务与联系
 
@@ -63,8 +72,5 @@ pnpm dlx wrangler@4.152.0 pages deploy dist --project-name hualian-ai --branch m
 
 咨询联系人：**见舟** · 微信：**`DST10209`**
 
-| 微信 | 抖音 | 视频号 | 公众号 |
-| :---: | :---: | :---: | :---: |
-| <img src="https://hualian-ai.pages.dev/assets/contact/wechat-qr.png" alt="见舟微信二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/douyin-qr.png" alt="见舟抖音二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/channels-qr.png" alt="见舟AI赋能视频号二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/official-account-qr.jpg" alt="公众号二维码" width="160"> |
-| `DST10209` | `74683161410` | 见舟AI赋能 | 扫码关注 |
+<img src="https://hualian-ai.pages.dev/assets/contact/wechat-qr.png" alt="见舟微信二维码" width="200">
 <!-- JIANZHOU-PUBLIC-INFO:END -->
