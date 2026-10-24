@@ -9,13 +9,14 @@ from urllib.parse import quote
 ROOT=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
 parser.add_argument('--brand-center',type=Path,default=ROOT.parent/'见舟品牌与发布中心')
+parser.add_argument('--site-url',help='Verified public site base URL; defaults to the brand center website link.')
 args=parser.parse_args()
 CENTER=args.brand_center
 OUT=ROOT/'dist'
 brand=json.loads((CENTER/'public/brand.json').read_text(encoding='utf-8'))
 data=json.loads((ROOT/'content/company-content.json').read_text(encoding='utf-8'))
 contact=brand['contact']
-SITE='https://hualian-ai.fondmule128.chatgpt.site'
+SITE=(args.site_url or brand['links']['website']).rstrip('/')
 REPO='https://github.com/tangchengjiao/hualian-ai-brand-center'
 def copy_public(source,destination):
     target=Path(destination)
